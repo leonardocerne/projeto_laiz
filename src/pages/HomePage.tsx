@@ -29,7 +29,7 @@ export default function HomePage() {
         {/* Left side — Photo */}
         <div className="w-full md:w-1/2 flex justify-center">
           <motion.img
-            src="/src/assets/images/nois.jpg"
+            src="/assets/images/nois.jpg"
             alt="Vocês dois"
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
