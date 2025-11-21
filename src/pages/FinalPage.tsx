@@ -18,7 +18,7 @@ export default function FinalPage() {
       {/* Música de fundo */}
       <audio
         ref={audioRef}
-        src="/src/assets/songs/final.mp3" // <- troque aqui o arquivo
+        src="/assets/songs/final.mp3" // <- troque aqui o arquivo
         loop
       />
 
